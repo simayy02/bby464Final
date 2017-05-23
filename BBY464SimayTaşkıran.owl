@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/99D4yROfXY7CvmaAwka9n5#"
+     xml:base="http://webprotege.stanford.edu/project/99D4yROfXY7CvmaAwka9n5"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/99D4yROfXY7CvmaAwka9n5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Mo2KHvE4o2pdHRWYS9dlw -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R7Mo2KHvE4o2pdHRWYS9dlw">
+        <rdfs:label>Originalname</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qOMsm5dAh4CGKfMiEzLdZ -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R8qOMsm5dAh4CGKfMiEzLdZ">
+        <rdfs:label>E-book</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94JsCcKW1wnEnwFxmoikFd -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R94JsCcKW1wnEnwFxmoikFd">
+        <rdfs:label>Translator</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBB9p6J3VuDV9uPKCOP8iPo -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBB9p6J3VuDV9uPKCOP8iPo">
+        <rdfs:label>Features of novels</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDi8QsRRh6eeeqmECbFNMAF -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RDi8QsRRh6eeeqmECbFNMAF">
+        <rdfs:label>Translation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYIHjVrVvmjtM2CkNZNn2I -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RYIHjVrVvmjtM2CkNZNn2I">
+        <rdfs:label>Sequence</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q5wJWLD2S72mfgUSIOzx9 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7q5wJWLD2S72mfgUSIOzx9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>ThinCover</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9CPzeGenNCrbhhrdy0TrtR -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9CPzeGenNCrbhhrdy0TrtR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>numberOfPages</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUYjUom5ywmrmXDb1LOH4Q -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RUYjUom5ywmrmXDb1LOH4Q">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>PrintYear</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBm313Y9SRquEMKUYaeMxmP"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rWfMsGT6rvJ6AwNhZ9BPt -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7rWfMsGT6rvJ6AwNhZ9BPt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">Translation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JC3132REYWBBLxt2r4TGy -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8JC3132REYWBBLxt2r4TGy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Translator</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9OnUVPvcUI5HsjTfK06oeG -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9OnUVPvcUI5HsjTfK06oeG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="tr">E-book</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDB6colQlaXCeIfdlDH6zSB -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDB6colQlaXCeIfdlDH6zSB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>PocketSize</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWrptU0ojzShNPT5a8Gqr6 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDWrptU0ojzShNPT5a8Gqr6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">Sequence</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7MaDfQ5LBSJdMD3xbBwQQ6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7MaDfQ5LBSJdMD3xbBwQQ6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBm313Y9SRquEMKUYaeMxmP"/>
+        <rdfs:label>bestsellers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tMAsQQCnav8ghP1CqKVgi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7tMAsQQCnav8ghP1CqKVgi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MaDfQ5LBSJdMD3xbBwQQ6"/>
+        <rdfs:label>historical novels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BJSdgGMwaKvuNvuTtCqCo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8BJSdgGMwaKvuNvuTtCqCo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMYr3eN9YpNOrmymZqoPhB"/>
+        <rdfs:label>Turkish novels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94SsQtMjXPYlJpwoRiL5n2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94SsQtMjXPYlJpwoRiL5n2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MaDfQ5LBSJdMD3xbBwQQ6"/>
+        <rdfs:label>love novels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dMcgZnp8EFIOpF6rb8dJm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dMcgZnp8EFIOpF6rb8dJm">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>stories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAdpvPnXRI7O9KWquorokt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAdpvPnXRI7O9KWquorokt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBjdrqse8PpltH0ga3kj4AO"/>
+        <rdfs:label>Foreign literature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJUuZjthBpt37LIwtfz5qZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJUuZjthBpt37LIwtfz5qZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBjdrqse8PpltH0ga3kj4AO"/>
+        <rdfs:label>Turkish literature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBjdrqse8PpltH0ga3kj4AO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjdrqse8PpltH0ga3kj4AO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dMcgZnp8EFIOpF6rb8dJm"/>
+        <rdfs:label>modern stories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBm313Y9SRquEMKUYaeMxmP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBm313Y9SRquEMKUYaeMxmP">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>novels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDaesI9MvSsGch4DIPqM5mA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDaesI9MvSsGch4DIPqM5mA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MaDfQ5LBSJdMD3xbBwQQ6"/>
+        <rdfs:label>adventure novels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMYr3eN9YpNOrmymZqoPhB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMYr3eN9YpNOrmymZqoPhB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBm313Y9SRquEMKUYaeMxmP"/>
+        <rdfs:label>new releases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROKF0GDFNWNb1G70LMcXRi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROKF0GDFNWNb1G70LMcXRi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MaDfQ5LBSJdMD3xbBwQQ6"/>
+        <dc:title xml:lang="tr">novelsName</dc:title>
+        <rdfs:label xml:lang="en">fantastic novels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcxcAdIoqRWubJYhW1nyKU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcxcAdIoqRWubJYhW1nyKU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9dMcgZnp8EFIOpF6rb8dJm"/>
+        <rdfs:label>classic stories</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rv7OW1OPv6yooBBwy2boj5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rv7OW1OPv6yooBBwy2boj5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RMYr3eN9YpNOrmymZqoPhB"/>
+        <rdfs:label>Foreign novels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3GPMXVOeEIDWOIvCuDOUY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R3GPMXVOeEIDWOIvCuDOUY">
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/RBlfodvohvJ8fvg8ygXtwMc"/>
+        <rdfs:label>Fantasticnovels</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Y7jvkBh3wOmy4t6gChVtz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7Y7jvkBh3wOmy4t6gChVtz">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R94SsQtMjXPYlJpwoRiL5n2"/>
+        <rdfs:label>Masumiyet Müzesi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yFqPL7b1eH8k6XN7laxww -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7yFqPL7b1eH8k6XN7laxww">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDaesI9MvSsGch4DIPqM5mA"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dan Brown</dc:creator>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Altın kitaplar</dc:publisher>
+        <rdfs:label xml:lang="tr">Digital Kale</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8M3wvTJVyFgXfA2loFTplU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8M3wvTJVyFgXfA2loFTplU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBJUuZjthBpt37LIwtfz5qZ"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mahmut Makal</dc:creator>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Literatür yayıncılık</dc:publisher>
+        <rdfs:label>Bizim köy</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.idefix.com/Kitap/Bizim-Koy/Mahmut-Makal/Edebiyat/Turk-Gunluk-Ani/urunno=0000000267418"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZC5s2vE1txbMOCaqRaJIs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ZC5s2vE1txbMOCaqRaJIs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDaesI9MvSsGch4DIPqM5mA"/>
+        <rdfs:label>Da Vinci Şifresi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bOidcyafga8WR3u1s9VZd -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8bOidcyafga8WR3u1s9VZd">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R94SsQtMjXPYlJpwoRiL5n2"/>
+        <rdfs:label>Kırmızı ve siyah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9A8Zopk4simpKarbqZoCmm -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9A8Zopk4simpKarbqZoCmm">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDaesI9MvSsGch4DIPqM5mA"/>
+        <rdfs:label>Kayıp Sembol</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9U9lflYLDSPZYfH0e1hkJV -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9U9lflYLDSPZYfH0e1hkJV">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7tMAsQQCnav8ghP1CqKVgi"/>
+        <rdfs:comment xml:lang="en">Şu çılgın türkler have an important place in historical novels</rdfs:comment>
+        <rdfs:comment xml:lang="tr">Şu çılgın türkler tarihi romanlar içerisinde önemli bir yere sahiptir</rdfs:comment>
+        <rdfs:label xml:lang="tr">Şu çılgın türkler</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://1000kitap.com/kitap/su-cilgin-turkler--892"/>
+        <owl:priorVersion xml:lang="tr">Diriliş</owl:priorVersion>
+        <owl:versionInfo xml:lang="tr">Türkiye üçlemesi ikinci versiyon</owl:versionInfo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Z80LhGVXFrMcqpzK9wnmh -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9Z80LhGVXFrMcqpzK9wnmh">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDaesI9MvSsGch4DIPqM5mA"/>
+        <rdfs:label>İhanet Noktası</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9m8bPuIFhR8FgPaein1VJS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9m8bPuIFhR8FgPaein1VJS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBAdpvPnXRI7O9KWquorokt"/>
+        <owl:sameAs rdf:resource="http://webprotege.stanford.edu/Rif5rtkCKpYZi4vJTppzxz"/>
+        <dc:language xml:lang="de">German</dc:language>
+        <dc:language xml:lang="tr">Turkish</dc:language>
+        <rdfs:label>Kedi ile fare</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://m.kitapyurdu.com/index.php?route=authors/authordetail&amp;author_id=7175"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIIC7NXrDfgAno09sQNkMb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBIIC7NXrDfgAno09sQNkMb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/ROKF0GDFNWNb1G70LMcXRi"/>
+        <dc:creator xml:lang="en">Suzanne Collins</dc:creator>
+        <dc:date xml:lang="tr">2015</dc:date>
+        <rdfs:comment xml:lang="tr">Açlık oyunları fantastik romanlar içerisinde önemli bir yere sahiptir</rdfs:comment>
+        <rdfs:comment xml:lang="en">Açlık oyunları have an important place in fantastic novels</rdfs:comment>
+        <rdfs:label xml:lang="tr">Açlık oyunları</rdfs:label>
+        <rdfs:label xml:lang="en">The hunger games</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://1000kitap.com/kitap/aclik-oyunlari--233"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlfodvohvJ8fvg8ygXtwMc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBlfodvohvJ8fvg8ygXtwMc">
+        <rdfs:comment xml:lang="en">A novel that will turn your left</rdfs:comment>
+        <rdfs:comment xml:lang="tr">Soluğunuzu kesecek bir roman</rdfs:comment>
+        <rdfs:label xml:lang="tr">koloni</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://1000kitap.com/kitap/koloni--2028"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0lnWiztGlhNzqULP8c1fi -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC0lnWiztGlhNzqULP8c1fi">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8BJSdgGMwaKvuNvuTtCqCo"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <rdfs:comment xml:lang="tr">İnsanın esareti en iyi 100 roman listesindedir</rdfs:comment>
+        <rdfs:comment xml:lang="en">İnsanın esareti is on the top 100 list of fiction</rdfs:comment>
+        <rdfs:label>İnsanın esareti</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://1000kitap.com/kitap/insanin-esareti--78133"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQ1CXjxFH3j7o5Ims358Vv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCQ1CXjxFH3j7o5Ims358Vv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R94SsQtMjXPYlJpwoRiL5n2"/>
+        <dc:creator xml:lang="en">Jojo Moyes</dc:creator>
+        <dc:publisher xml:lang="tr">Pegasus yayınları</dc:publisher>
+        <rdfs:label xml:lang="en">Me before you</rdfs:label>
+        <rdfs:label xml:lang="tr">Senden önce ben</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.dr.com.tr/Kitap/Senden-Once-Ben/Jojo-Moyes/Edebiyat/Roman/Romantik/urunno=0000000440466"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKhA6DAYLBBcnzBsUJNT34 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDKhA6DAYLBBcnzBsUJNT34">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDaesI9MvSsGch4DIPqM5mA"/>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doğan kitap</dc:publisher>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Traffic accident</dc:subject>
+        <rdfs:comment xml:lang="en">A novel to improve your imagination</rdfs:comment>
+        <rdfs:comment xml:lang="tr">Hayal gücünüzü geliştirecek bir roman</rdfs:comment>
+        <rdfs:label>Taş Meclisi</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://1000kitap.com/kitap/tas-meclisi--1633"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDiDHdpDat0LoWpz482JEKF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDiDHdpDat0LoWpz482JEKF">
+        <rdfs:label>Kızılnehirler</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnuA11baP8AjudWe0qrOQe -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDnuA11baP8AjudWe0qrOQe">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R94SsQtMjXPYlJpwoRiL5n2"/>
+        <rdfs:label>İlk Aşk</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rd3BU3w8lVPIg3jy7818ns -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rd3BU3w8lVPIg3jy7818ns">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/Rv7OW1OPv6yooBBwy2boj5"/>
+        <webprotege:R7rWfMsGT6rvJ6AwNhZ9BPt xml:lang="tr">Turkish</webprotege:R7rWfMsGT6rvJ6AwNhZ9BPt>
+        <webprotege:R8JC3132REYWBBLxt2r4TGy xml:lang="tr">Sezer Soner</webprotege:R8JC3132REYWBBLxt2r4TGy>
+        <webprotege:R9OnUVPvcUI5HsjTfK06oeG xml:lang="tr">Var</webprotege:R9OnUVPvcUI5HsjTfK06oeG>
+        <webprotege:RDB6colQlaXCeIfdlDH6zSB xml:lang="tr">Var</webprotege:RDB6colQlaXCeIfdlDH6zSB>
+        <dc:creator xml:lang="en">George Martin</dc:creator>
+        <dc:language xml:lang="en">English</dc:language>
+        <dc:publisher xml:lang="en">Harper collins publishers</dc:publisher>
+        <webprotege:RYIHjVrVvmjtM2CkNZNn2I xml:lang="tr">Roman dizisi</webprotege:RYIHjVrVvmjtM2CkNZNn2I>
+        <rdfs:label xml:lang="en">A dance with dragons</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.yabancidilkitap.com/George-R-R-Martin-A-Dance-With-Dragons-A-Song-of-Ice-Fire-Book-5,PR-2237.html"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rif5rtkCKpYZi4vJTppzxz -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rif5rtkCKpYZi4vJTppzxz">
+        <rdfs:label>Dönüşüm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rt9cFTwG54sUUVvtlyDh4f -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rt9cFTwG54sUUVvtlyDh4f">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RcxcAdIoqRWubJYhW1nyKU"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ömer Seyfettin</dc:creator>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brotherhood</dc:subject>
+        <rdfs:label>And</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.bilgicik.com/yazi/ant-omer-seyfettin/"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rv64nKeAVoJrPhS3oZjUjF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rv64nKeAVoJrPhS3oZjUjF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R94SsQtMjXPYlJpwoRiL5n2"/>
+        <rdfs:label>Madame Bovary</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
